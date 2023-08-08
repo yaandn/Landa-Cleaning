@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+  --cor-primaria: #f2e313;
+  --cor-secundaria: #bfa10b;
+  --cor-terciaria: #594B05;
+  --background: #F2F2F2
+  --fonte-primaria: "Bahnschrift", sans-serif;
+  --fonte-secundaria: "Lora", serif;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  color: #000000;
+}
