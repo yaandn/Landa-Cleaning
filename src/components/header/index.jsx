@@ -12,51 +12,31 @@ const Header = () => {
       <nav className="nav-container">
         <ul className="nav-list">
           <li>
-            <Link to="/cardapio" className="nav-itens">
-              <span>Home</span>
-            </Link>
+            
+              <a className="nav-itens" href="#home"><span>Home</span></a>
+            
           </li>
 
           <li>
-            <Link to="/faleconosco" className="nav-itens">
-              <span>Horários</span>
-            </Link>
+           
+              <a className="nav-itens" href="#servicos"><span>Services</span></a>
+            
+          </li>
+
+         
+
+          <li>
+            
+              <a className="nav-itens" href=""><span>About Us</span></a>
+            
           </li>
 
           <li>
-            <Link to="/nossahistoria" className="nav-itens">
-              <span>Serviços</span>
-            </Link>
+            
+              <a className="nav-itens" href=""><span>Contact us</span></a>
+            
           </li>
 
-          <li>
-            <Link to="/eventos" className="nav-itens">
-              <span>Contato</span>
-            </Link>
-          </li>
-
-          <li>
-            <a
-              to="*"
-              className="nav-icons"
-              href="https://www.facebook.com/thebullsteakhouseoficial"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <AiFillFacebook />
-            </a>
-          </li>
-
-          <li>
-            <a
-              className="nav-icons"
-              href="https://www.instagram.com/thebullsteakhouse/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <AiOutlineInstagram />
-            </a>
-          </li>
         </ul>
       </nav>
     </div>
