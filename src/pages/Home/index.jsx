@@ -82,7 +82,7 @@ const Home = () => {
         <div className="box-informacoes">
           <span className="title-informacoes">Contact</span>
           <div className="box-botao-informacoes">
-            <a href="">
+            <a href="tel:+1-425-647-5047" target="_blank">
               <span>Call Now</span>
             </a>
           </div>
