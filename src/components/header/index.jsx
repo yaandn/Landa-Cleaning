@@ -1,13 +1,13 @@
 import "./header.css";
 import { Link } from "react-router-dom";
 import { AiFillFacebook, AiOutlineInstagram } from "react-icons/ai";
-// import Logo from "../../assets/images/logo.png";
+ import Logo from "../../assets/images/logo.png";
 
 const Header = () => {
   return (
     <div className="header-container">
       <Link to="/" className="logo">
-        {/* <img src={Logo} alt="logo-thebull" className="logo-img" /> */}
+         <img src={Logo} alt="logo-thebull" className="logo-img" /> 
       </Link>
       <nav className="nav-container">
         <ul className="nav-list">
@@ -27,13 +27,19 @@ const Header = () => {
 
           <li>
             
-              <a className="nav-itens" href=""><span>About Us</span></a>
+              <a className="nav-itens" href="#sobrenos"><span>About Us</span></a>
             
           </li>
 
           <li>
             
-              <a className="nav-itens" href=""><span>Contact us</span></a>
+              <a className="nav-itens" href="#contato"><span>Contact us</span></a>
+            
+          </li>
+
+          <li>
+            
+              <a className="nav-itens" href="#avaliacoes"><span>Reviews</span></a>
             
           </li>
 

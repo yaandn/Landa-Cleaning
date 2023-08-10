@@ -51,9 +51,14 @@
   justify-content: center;
   align-items: center;
   border-radius: 4px;
+  cursor: pointer;
   
   padding: 20px;
   background-color: var(--cor-primaria);
+}
+
+.box-botao:hover {
+  background-color: var(--cor-secundaria);
 }
 
  .box-botao a {
@@ -151,10 +156,11 @@
   height: 700px;
   background-color:var(--cor-desfoque);
   display: flex;
-
-  justify-content: center;
-  flex-direction: row;
+ 
+  align-items: center;
+  flex-direction: column;
   flex: 1;
+  padding: 40px;
 
 }
 
@@ -165,7 +171,8 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 50px ;
+  
+  
   
 }
 
@@ -188,5 +195,251 @@
   text-align: center;
 
 }
+
+.galeria {
+  width: 100%;
+  height: 40%;
+  
+  
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 20px;
+}
+
+.galeria img {
+  width: 18%;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.contato-container {
+  width: 100%;
+  height: 1000px;
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.mapa {
+  width: 100%;
+  height: 60%;
+  margin-top: 50px;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mapa iframe {
+  border: 0;
+}
+
+.informacoes {
+  width: 70%;
+  height: 40%;
+  margin-top: 20px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+
+}
+
+.box-informacoes {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: rgb(255, 255, 255);
+  
+  padding: 12px 16px;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  gap: 20px;
+  box-shadow: 6px 6px 36px 9px rgba(0, 0, 0, 0.11);
+}
+
+.box-botao-informacoes {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+  
+  padding: 20px;
+  background-color: var(--cor-primaria);
+}
+
+.box-botao-informacoes:hover {
+  background-color: var(--cor-secundaria);
+  color: #FFF;
+}
+
+.box-botao-informacoes a {
+  text-decoration: none;
+  color:var(--cor-neutra);
+  font-weight: 700;
+}
+
+.title-informacoes {
+  font-size: 1.6rem;
+  padding: 5px 15px;
+  border-radius: 4px;
+  color: var(--cor-primaria);
+  
+}
+
+.descricao-informacoes {
+  color: var(--cor-primaria);
+  text-align: center;
+  
+}
+
+.box-horarios {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: rgb(255, 255, 255);
+  
+  padding: 12px 16px;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  gap: 20px;
+  box-shadow: 6px 6px 36px 9px rgba(0, 0, 0, 0.11);
+  margin-bottom: 30px;
+
+}
+
+.lista-horarios {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  
+  
+  
+
+}
+
+.lista-horarios-itens {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #121212;
+  
+}
+
+.avaliacoes-container {
+  width: 100%;
+  
+  background-color:var(--cor-secundaria);
+  display: flex;
+ 
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  padding: 40px;
+}
+
+.titulo-avaliacoes {
+  color: #fff;
+  font-size: 2.2rem;
+  margin-top: 10px;
+}
+
+.container-avaliacoes {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.box-avaliacoes {
+  display: flex;
+  flex-direction: column;
+  width: 31%;
+  background-color: rgb(255, 255, 255);
+  
+  padding: 50px;
+  
+  /* align-items: center; */
+  /* justify-content: center; */
+  border-radius: 4px;
+  gap: 20px;
+  box-shadow: 6px 6px 36px 9px rgba(0, 0, 0, 0.11);
+
+}
+
+.header-avaliacoes {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.data-avaliacao {
+  color: #12121281;
+}
+
+.texto-avaliacao {
+  line-height: 1.5;
+}
+
+.nome-container {
+  width: 100%;
+}
+
+.nome-container span {
+  color: var(--cor-secundaria);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.box-botao-avaliacoes {
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+  margin:  30px auto;
+  
+  padding: 20px;
+  background-color: var(--cor-secundaria);
+}
+
+.box-botao-avaliacoes:hover {
+  background-color: var(--cor-primaria);
+}
+
+.box-botao-avaliacoes a {
+  text-decoration: none;
+  color:var(--cor-neutra);
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
 
 

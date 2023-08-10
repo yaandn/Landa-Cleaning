@@ -6,7 +6,7 @@
   position: fixed;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   background-color: #fff;
   gap: 100px;
   box-shadow: 0px 8px 36px 5px rgba(0, 0, 0, 0.089);
@@ -21,21 +21,26 @@
 }
 
 .logo-img {
-  background-color: green;
+  
   padding: 0;
-  height: 100px;
-  width: 200px;
+  height: 160px;
+  width: 140px;
+  
+  
 }
 
 .nav-list {
   display: flex;
   gap: 40px;
   color: #000000;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end; 
+  justify-content: center; 
   list-style: none;
   font-size: 1.1rem;
   font-weight: bold;
+  
+  height: 100px;
+  padding-bottom: 25px;
 }
 
 .nav-itens {
