@@ -77,7 +77,28 @@
  
   background-color: var(--cor-terciaria);
  
-  
-  
-  
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    height: 200px;
+    flex-direction: column;
+    
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .nav-list{
+    flex-direction: column;
+    margin-top: 15px;
+    gap: 15px;
+    font-size: 1.0rem;
+    align-items: center;
+
+    
+  }
+
+
 }
