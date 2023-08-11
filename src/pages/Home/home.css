@@ -448,22 +448,31 @@
 /* Estilos para telas pequenas */
 @media (max-width: 768px) {
   .home-container {
-    height: 500px;
+    height: 400px;
     margin-bottom: 30px;
+    
+    
   }
   .box-quadrado {
     width: 100%;
     margin-left: 0;
     padding: 30px;
+    justify-content: flex-start;
+    align-items: center;
+    height: 400px;
+    
+    
 
   }
 
   .descricao {
     font-size: 1.5rem;
+  
   }
 
   .box-botao {
     width: 200px;
+    
   }
 
   .servicos-container {
@@ -534,6 +543,7 @@
   text-align: center;
  }
 
+ 
  .subtitulo-sobrenos {
   font-size: 1.5rem;
   text-align: center;
@@ -578,6 +588,15 @@
 
  .box-avaliacoes {
   width: 300px;
+ }
+
+ .header-avaliacoes {
+  flex-direction: column;
+  gap: 15px;
+ }
+
+ .titulo-avaliacoes {
+  text-align: center;
  }
 
  
