@@ -212,6 +212,8 @@
   flex-direction: column;
   flex: 1;
   padding: 40px;
+  justify-content: center;
+  text-align: center;
 }
 
 .conteudo {
@@ -219,17 +221,22 @@
   width: 60%;
 
   display: flex;
-  align-items: center;
-  align-items: column;
+  justify-content: center;
   flex-wrap: wrap;
 
   font-weight: 700;
 }
 
+.titulo-sobrenos {
+  font-size: 2.2rem;
+  color: var(--cor-primaria);
+  text-align: center;
+}
+
 .subtitulo-sobrenos {
   font-size: 2rem;
   font-weight: 300;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .texto-sobrenos {
@@ -367,10 +374,8 @@
   justify-content: center;
   align-items: center;
   list-style: none;
-}
 
-.lista-horarios-itens {
-  font-size: 1.3rem;
+  padding-bottom: 30px;
   font-weight: 400;
   color: #121212;
 }
@@ -514,13 +519,13 @@
 
   .cards-container {
     gap: 0;
-    margin-top: 30px;
+
+    margin-bottom: 30px;
   }
 
   .card {
     justify-content: flex-start;
     height: 450px;
-    padding-bottom: 30px;
   }
 
   .texto-container {

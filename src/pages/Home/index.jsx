@@ -31,10 +31,11 @@ const Home = () => {
         <div className="box-servicos-imagens">
           <div className="texto-container">
             <span className="texto-terciario">
-              Rain City Maids provides a consistent, high-quality cleaning
-              experience. We offer whole home cleaning where we work off our
-              standard checklist, as well as hourly service for custom cleaning.
-              Call us if you'd like to book hourly service.
+              Landa Cleaning delivers a reliable and top-notch cleaning
+              experience consistently. We provide complete home cleaning
+              following our regular checklist, and also offer time-based options
+              for tailored cleaning. Reach out to us if you're interested in
+              scheduling time-based service.
             </span>
           </div>
           <div className="cards-container">
