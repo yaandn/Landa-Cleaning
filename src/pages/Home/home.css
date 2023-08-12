@@ -17,9 +17,9 @@
 .box-quadrado {
   max-width: 700px;
   min-width: 300px;
-  
+
   margin-left: 150px;
-  
+
   height: 100%;
 
   display: flex;
@@ -30,7 +30,6 @@
   gap: 50px;
   background-color: #12121223;
   padding: 100px;
-  
 }
 
 .descricao {
@@ -53,7 +52,7 @@
   align-items: center;
   border-radius: 4px;
   cursor: pointer;
-  
+
   padding: 20px;
   background-color: var(--cor-primaria);
 }
@@ -62,11 +61,10 @@
   background-color: var(--cor-secundaria);
 }
 
- .box-botao a {
+.box-botao a {
   text-decoration: none;
-  color:var(--cor-neutra);
+  color: var(--cor-neutra);
   font-weight: 700;
-
 }
 
 /* estilizando a segunda section */
@@ -75,32 +73,25 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: baseline;
-  flex-direction: row;
+  justify-content: center;
+  flex-direction: column;
   flex: 1;
-  gap: 50px;
+  gap: 30px;
   padding-bottom: 10px;
-  
 }
 
 .box-quadrado-servicos {
- width: 40%;
-  
-  margin-left: 150px;
-  
+  width: 95%;
+
   height: 100%;
 
   display: flex;
-  align-items: center;
-  
-  flex-wrap: wrap;
-  flex-direction: column;
+
+  justify-content: center;
+
+  flex-direction: row;
   gap: 30px;
   margin-bottom: 30px;
-  
- 
-  
-
 }
 
 .titulo-servicos {
@@ -120,63 +111,118 @@
   flex-direction: column;
   gap: 15px;
   margin-left: 30px;
-  
 }
 
 .itens-lista {
   font-size: 1.3rem;
   color: var(--cor-primaria);
-  
+}
+
+.lado-esquerdo {
+  width: 45%;
+
+  padding: 25px;
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+  gap: 50px;
 }
 
 .lado-direito {
-  
-  width: 40%;
+  width: 45%;
   padding: 25px;
   display: flex;
- 
+
   align-items: center;
   flex-direction: column;
   gap: 50px;
-
 }
 
-.exemplo-imagem{
+.exemplo-imagem {
   background-color: var(--cor-secundaria);
   height: 320px;
   width: 100%;
+}
+
+.box-servicos-imagens {
+  width: 87%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  text-align: center;
+}
+
+.cards-container {
+  display: flex;
+  width: 100%;
+
+  justify-content: center;
+  gap: 110px;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 550px;
+  width: 390px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.imagem-card {
+  width: 290px;
+  height: 290px;
+
+  border-radius: 8px;
+  border: 4px solid var(--cor-desfoque);
+}
+
+.texto-container {
+  width: 90%;
+  margin-bottom: 10px;
+}
+.titulo-card {
+  color: var(--cor-primaria);
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.texto-card {
+  font-size: 1rem;
+  line-height: 1.5s;
 }
 
 /* section sobre nos */
 
 .sobrenos-container {
   width: 100%;
-  
-  background-color:var(--cor-desfoque);
+
+  background-color: var(--cor-desfoque);
   display: flex;
- 
+
   align-items: center;
   flex-direction: column;
   flex: 1;
   padding: 40px;
-
 }
 
 .conteudo {
   height: 50%;
   width: 60%;
- 
+
   display: flex;
   align-items: center;
-  flex-direction: column;
-  
-  
-  
-}
+  align-items: column;
+  flex-wrap: wrap;
 
-.titulo-sobrenos {
-  font-size: 2.5rem;
-  color: var(--cor-primaria);
   font-weight: 700;
 }
 
@@ -191,20 +237,17 @@
   font-weight: 400;
   line-height: 1.5;
   text-align: center;
-
 }
 
 .galeria {
   width: 100%;
   margin-top: 30px;
-  
-  
+
   display: flex;
   align-items: baseline;
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
-  
 }
 
 .galeria img {
@@ -215,15 +258,11 @@
 
 .contato-container {
   width: 100%;
- 
-  
-  
+
   display: flex;
-  
-  
+
   flex-direction: column;
   align-items: center;
-
 }
 
 .mapa {
@@ -231,8 +270,6 @@
   height: 500px;
   margin-top: 50px;
 
-  
- 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -244,29 +281,25 @@
 
 .informacoes {
   width: 75%;
- 
+
   margin-top: 20px;
-  
+
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 50px;
   flex-wrap: wrap;
   margin-bottom: 30px;
-  
-
 }
 
 .box-informacoes {
   display: flex;
   flex-direction: column;
   width: 300px;
-  
+
   background-color: rgb(255, 255, 255);
   padding: 20px;
-  
-  
-  
+
   align-items: center;
   justify-content: center;
   border-radius: 4px;
@@ -281,19 +314,19 @@
   align-items: center;
   border-radius: 4px;
   cursor: pointer;
-  
+
   padding: 20px;
   background-color: var(--cor-primaria);
 }
 
 .box-botao-informacoes:hover {
   background-color: var(--cor-secundaria);
-  color: #FFF;
+  color: #fff;
 }
 
 .box-botao-informacoes a {
   text-decoration: none;
-  color:var(--cor-neutra);
+  color: var(--cor-neutra);
   font-weight: 700;
   text-align: center;
 }
@@ -303,13 +336,11 @@
   padding: 5px 15px;
   border-radius: 4px;
   color: var(--cor-primaria);
-  
 }
 
 .descricao-informacoes {
   color: var(--cor-primaria);
   text-align: center;
-  
 }
 
 .box-horarios {
@@ -317,7 +348,7 @@
   flex-direction: column;
   width: 30%;
   background-color: rgb(255, 255, 255);
-  
+
   padding: 12px 16px;
   height: 300px;
   align-items: center;
@@ -326,7 +357,6 @@
   gap: 20px;
   box-shadow: 6px 6px 36px 9px rgba(0, 0, 0, 0.11);
   margin-bottom: 30px;
-
 }
 
 .lista-horarios {
@@ -337,25 +367,20 @@
   justify-content: center;
   align-items: center;
   list-style: none;
-  
-  
-  
-
 }
 
 .lista-horarios-itens {
   font-size: 1.3rem;
   font-weight: 400;
   color: #121212;
-  
 }
 
 .avaliacoes-container {
   width: 100%;
-  
-  background-color:var(--cor-secundaria);
+
+  background-color: var(--cor-secundaria);
   display: flex;
- 
+
   align-items: center;
   flex-direction: column;
   flex: 1;
@@ -375,7 +400,7 @@
   /* align-items: center; */
   justify-content: center;
   gap: 30px;
-  margin-top: 30px; 
+  margin-top: 30px;
   flex-wrap: wrap;
 }
 
@@ -384,22 +409,20 @@
   flex-direction: column;
   width: 400px;
   background-color: rgb(255, 255, 255);
-  
+
   padding: 50px;
-  
+
   /* align-items: center; */
   /* justify-content: center; */
   border-radius: 4px;
   gap: 20px;
   box-shadow: 6px 6px 36px 9px rgba(0, 0, 0, 0.11);
-
 }
 
 .header-avaliacoes {
   width: 100%;
   display: flex;
   justify-content: space-between;
-
 }
 
 .data-avaliacao {
@@ -427,8 +450,8 @@
   align-items: center;
   border-radius: 4px;
   cursor: pointer;
-  margin:  30px auto;
-  
+  margin: 30px auto;
+
   padding: 20px;
   background-color: var(--cor-secundaria);
 }
@@ -439,19 +462,16 @@
 
 .box-botao-avaliacoes a {
   text-decoration: none;
-  color:var(--cor-neutra);
+  color: var(--cor-neutra);
   font-weight: 700;
   text-align: center;
 }
 
-
 /* Estilos para telas pequenas */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .home-container {
     height: 400px;
     margin-bottom: 30px;
-    
-    
   }
   .box-quadrado {
     width: 100%;
@@ -460,52 +480,74 @@
     justify-content: flex-start;
     align-items: center;
     height: 400px;
-    
-    
-
   }
 
   .descricao {
     font-size: 1.5rem;
-  
   }
 
   .box-botao {
     width: 200px;
-    
   }
 
   .servicos-container {
-  
     flex-direction: column;
-   
+    padding: 0 30px;
+
     width: 100%;
     gap: 10px;
-    
-    
-    
   }
 
   .box-quadrado-servicos {
     width: 100%;
-    
-    margin-left: 0;
-    
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 10px 30px;
   }
 
+  .box-servicos-imagens {
+    padding: 0;
+    width: 100%;
+    gap: 10px;
+  }
 
+  .cards-container {
+    gap: 0;
+    margin-top: 30px;
+  }
+
+  .card {
+    justify-content: flex-start;
+    height: 450px;
+    padding-bottom: 30px;
+  }
+
+  .texto-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .box-quadrado-servicos {
+    width: 100%;
+
+    padding: 0;
+    margin: 0;
+  }
+
+  .lado-esquerdo {
+    width: 100%;
+    padding: 0;
+  }
 
   .titulo-servicos {
-   font-size: 1.5rem;
-   text-align: center;
+    font-size: 1.5rem;
+    text-align: center;
   }
 
   .texto-terciario {
-   font-size: 1.2rem;
+    font-size: 1.2rem;
   }
 
   .box-lista {
@@ -516,7 +558,6 @@
     font-size: 1.2rem;
   }
 
-
   .exemplo-imagem {
     height: 300px;
     width: 300px;
@@ -526,10 +567,8 @@
     text-align: center;
   }
 
-  .sobrenos-container  {
+  .sobrenos-container {
     padding: 0px;
-
-    
   }
 
   .conteudo {
@@ -537,90 +576,68 @@
     padding: 30px;
   }
 
- .titulo-sobrenos {
-  font-size: 1.5rem;
-  margin-top: 30px;
-  text-align: center;
- }
+  .titulo-sobrenos {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    text-align: center;
+  }
 
- 
- .subtitulo-sobrenos {
-  font-size: 1.5rem;
-  text-align: center;
-  margin-top: 10px;
- }
+  .subtitulo-sobrenos {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10px;
+  }
 
- .texto-sobrenos {
-  font-size: 1.2rem;
-  text-align: center;
- }
+  .texto-sobrenos {
+    font-size: 1.1rem;
+    text-align: center;
+  }
 
- .galeria {
-  margin-bottom: 30px;
- }
+  .galeria {
+    margin-bottom: 30px;
+  }
 
- .galeria img{
-  height: 300px;
-  width: 300px;
- }
+  .galeria img {
+    height: 300px;
+    width: 300px;
+  }
 
+  .mapa {
+    height: 300px;
+  }
 
+  .informacoes {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
 
- 
+  .box-informacoes {
+    width: 98%;
+  }
 
- .mapa {
-  height: 300px;
-  
- }
+  .lista-horarios-itens {
+    font-size: 1rem;
+  }
 
- .informacoes {
-  margin-bottom: 30px;
-  margin-top: 30px;
- }
+  .box-avaliacoes {
+    width: 300px;
+  }
 
- .box-informacoes {
-  width: 98%;
- }
+  .header-avaliacoes {
+    flex-direction: column;
+    gap: 15px;
+  }
 
- .lista-horarios-itens {
-  font-size: 1.0rem;
- }
-
- .box-avaliacoes {
-  width: 300px;
- }
-
- .header-avaliacoes {
-  flex-direction: column;
-  gap: 15px;
- }
-
- .titulo-avaliacoes {
-  text-align: center;
- }
-
- 
-
-
- 
-
- 
-
-  
-
-
+  .titulo-avaliacoes {
+    text-align: center;
+  }
 }
- 
 
+@media (max-width: 1300px) {
+  .cards-container {
+    padding: 0;
+    gap: 50px;
 
-
-
-
-
-
-
-
-
-
-
-
+    justify-content: center;
+  }
+}
