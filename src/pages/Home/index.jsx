@@ -26,22 +26,21 @@ const Home = () => {
       </section>
       <section className="servicos-container" id="servicos">
         <h1 className="titulo-servicos">
-          Residential Cleaning: Let our team transforming Homes Through Cleaning
+          Residential Cleaning: Comercial cleaning - Move out cleaning - Move in cleaning - Deep Cleaning - Carpet cleaning
         </h1>
         <div className="box-servicos-imagens">
           <div className="texto-container">
             <span className="texto-terciario">
-              Landa Cleaning delivers a reliable and top-notch cleaning
+              Landa Cleaning delivers a reliable and Spotless cleaning
               experience consistently. We provide complete home cleaning
-              following our regular checklist, and also offer time-based options
-              for tailored cleaning. Reach out to us if you're interested in
-              scheduling time-based service.
+              following our regular checklist. Reach out to us if you're interested in
+              scheduling a service.
             </span>
           </div>
           <div className="cards-container">
             <div className="card">
               <div className="imagem-card"></div>
-              <span className="titulo-card">Thorough Unique Cleaning</span>
+              <span className="titulo-card">Deep Cleaning</span>
               <span className="texto-card">
                 Each task included in the One-Time Deep Cleaning is carried out
                 more thoroughly, covering everything from baseboards to cabinet
@@ -51,7 +50,7 @@ const Home = () => {
             </div>
             <div className="card">
               <div className="imagem-card"></div>
-              <span className="titulo-card">Ongoing Cleaning</span>
+              <span className="titulo-card">Regular Cleaning</span>
               <span className="texto-card">
                 For individuals seeking regular fundamental cleaning on a
                 weekly, bi-weekly, or monthly basis, we provide Continuous
@@ -63,15 +62,14 @@ const Home = () => {
             </div>
             <div className="card">
               <div className="imagem-card"></div>
-              <span className="titulo-card">Relocation Cleaning</span>
+              <span className="titulo-card">Move In - Move Out Cleaning</span>
               <span className="texto-card">
-                Whether you're transitioning to a new residence or bidding
-                farewell to your current one, opt for our Transition Cleaning
+                Whether you're transitioning to a new residence or moving out from your current one, opt for our Transition Cleaning
                 service. This package includes all the features of our
                 Comprehensive Cleaning, with added attention to cleaning the
                 refrigerator, oven, windows, and cabinets. Rest assured, we'll
                 ensure the entire interior of your home is impeccably prepared
-                for its next occupant.
+                for the next occupant.
               </span>
             </div>
           </div>
@@ -79,7 +77,7 @@ const Home = () => {
         <div className="box-quadrado-servicos">
           <div className="lado-esquerdo">
             <span className="texto-terciario">
-              Experience the feeling of purity and comfort in your home with
+              Experience the feeling of comfort in your home with
               Radiant Residential Cleaning services. Our specialized team takes
               care of every detail, ensuring that every corner shines with
               cleanliness and vitality. Let us make your home an immaculate
@@ -89,7 +87,7 @@ const Home = () => {
             </span>
             <ul className="box-lista">
               <li className="itens-lista">
-                Clarity and Effectiveness in Residential Cleaning
+                Spotless in Residential Cleaning
               </li>
               <li className="itens-lista">
                 Inviting Environments for Well-Being
@@ -110,10 +108,8 @@ const Home = () => {
 
       <section className="sobrenos-container" id="sobrenos">
         <div className="conteudo">
-          <h1 className="titulo-sobrenos">
-            THE ART AND SCIENCE OF BETTER CLEANING
-          </h1>
-          <h2 className="subtitulo-sobrenos">
+          
+          <h2 className="titulo-sobrenos">
             Keeping your home clean and safe is essential for your health.
           </h2>
           <span className="texto-sobrenos">
@@ -155,7 +151,7 @@ const Home = () => {
                 <span>Call Now</span>
               </a>
             </div>
-            <span className="descricao-informacoes">(495) 647-5047</span>
+            <span className="descricao-informacoes">(425) 647-5047</span>
           </div>
           <div className="box-informacoes">
             <span className="title-informacoes">Adress</span>
