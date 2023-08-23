@@ -287,7 +287,7 @@
 
 .mapa iframe {
   border: 0;
-  width: 80%;
+  
 }
 
 .informacoes {
@@ -660,6 +660,10 @@
   .texto-sobrenos {
     text-align: scenter;
     
+  }
+
+  .mapa iframe {
+    width: 80%;
   }
 
   
