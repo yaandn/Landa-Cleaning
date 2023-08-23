@@ -97,6 +97,7 @@
 .titulo-servicos {
   color: var(--cor-primaria);
   font-size: 2.0rem;
+  margin-bottom: 30px;
 }
 
 .texto-terciario {
@@ -248,7 +249,7 @@
 }
 
 .galeria {
-  width: 100%;
+  width: 80%;
   margin-top: 30px;
 
   display: flex;
@@ -259,7 +260,7 @@
 }
 
 .galeria img {
-  width: 20%;
+  width: 300px;
   height: 250px;
   border-radius: 4px;
 }
@@ -281,14 +282,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .mapa iframe {
   border: 0;
+  width: 80%;
 }
 
 .informacoes {
-  width: 75%;
+  width: 80%;
+  
 
   margin-top: 20px;
 
@@ -550,6 +554,7 @@
   .titulo-servicos {
     font-size: 1.5rem;
     text-align: center;
+ 
   }
 
   .texto-terciario {
@@ -646,4 +651,18 @@
 
     justify-content: center;
   }
+
+  .titulo-servicos {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .texto-sobrenos {
+    text-align: scenter;
+    
+  }
+
+  
+
+ 
 }

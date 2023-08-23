@@ -25,11 +25,12 @@ const Home = () => {
         </div>
       </section>
       <section className="servicos-container" id="servicos">
-        <h1 className="titulo-servicos">
-          Residential Cleaning: Comercial cleaning - Move out cleaning - Move in cleaning - Deep Cleaning - Carpet cleaning
-        </h1>
+       
         <div className="box-servicos-imagens">
           <div className="texto-container">
+          <h1 className="titulo-servicos">
+          Residential Cleaning - Comercial cleaning - Move out cleaning - Move in cleaning - Deep Cleaning - Carpet cleaning
+        </h1>
             <span className="texto-terciario">
               Landa Cleaning delivers a reliable and Spotless cleaning
               experience consistently. We provide complete home cleaning
