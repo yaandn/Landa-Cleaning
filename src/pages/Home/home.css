@@ -15,8 +15,7 @@
 }
 
 .box-quadrado {
-  max-width: 700px;
-  min-width: 300px;
+  width: 700px;
 
   margin-left: 150px;
 
@@ -477,6 +476,8 @@
   text-align: center;
 }
 
+
+
 /* Estilos para telas pequenas */
 @media (max-width: 800px) {
   .home-container {
@@ -644,6 +645,38 @@
   }
 }
 
+@media (max-width: 850px) {
+  .box-quadrado {
+    width: 100%;
+    margin-left: 0;
+  }
+  
+  .box-quadrado-servicos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .texto-card {
+    font-size: 1.2rem;
+  }
+
+  .lado-direito {
+    width: 90%;
+  }
+
+  .lado-esquerdo {
+    width: 90%;
+  }
+
+  .galeria {
+    width: 100%;
+  }
+
+  .conteudo {
+    width: 80%;
+  }
+} 
+
 @media (max-width: 1300px) {
   .cards-container {
     padding: 0;
@@ -665,6 +698,12 @@
   .mapa iframe {
     width: 80%;
   }
+
+  .conteudo {
+    width: 80%;
+  }
+
+  
 
   
 

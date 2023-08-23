@@ -131,7 +131,11 @@
 
 
 
-
+@media (max-width: 850px) {
+  .nav-list {
+    font-size: 1.0rem;
+  }
+}
 
 @media (max-width: 768px) {
   .header-container {
