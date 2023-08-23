@@ -540,6 +540,7 @@
     width: 100%;
     text-align: center;
     margin-top: 10px;
+    
   }
 
   .box-quadrado-servicos {
@@ -587,7 +588,7 @@
 
   .conteudo {
     width: 100%;
-    padding: 30px;
+   
   }
 
   .titulo-sobrenos {
@@ -620,6 +621,10 @@
     height: 300px;
   }
 
+  .texto-card {
+    font-size: 1.0rem;
+  }
+
   .informacoes {
     margin-bottom: 30px;
     margin-top: 30px;
@@ -632,6 +637,8 @@
   .lista-horarios-itens {
     font-size: 1rem;
   }
+
+ 
 
   .box-avaliacoes {
     width: 300px;
@@ -658,9 +665,7 @@
     align-items: center;
   }
 
-  .texto-card {
-    font-size: 1.2rem;
-  }
+  
 
   .lado-direito {
     width: 90%;
