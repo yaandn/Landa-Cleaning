@@ -533,7 +533,13 @@
 
   .card {
     justify-content: flex-start;
-    height: 450px;
+    
+  }
+
+  .imagem-card {
+    width: 90%;
+    height: 300px;
+
   }
 
   .texto-container {
